@@ -20,3 +20,5 @@ Motivation?
 In orde to understand servlet, one must practice it. This project helped me to understand how actually a servlet works in java eclipse 
 oxygen with apache tomcat server v8.5 with a table names industry. 
 I have configured web.xml file that will help you to understand how servlet mapping takes place in java.
+
+NOTE: DO NOT FORGET TO PUT MYSQL_CONNECTOR.JAR FILE IN LIB FOLDER 
