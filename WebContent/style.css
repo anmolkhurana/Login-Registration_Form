@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+body
+{	
+  background-image: url("AK3.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1
+{	
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  color: blue;
+  
+}
+h2
+{
+	color:white ;
+	font-size: 30px;
+}
+input
+{	
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background:#ECF0F1 ;
+  width: 20%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+}
+
+#in
+{
+	background: #e6b800;
+}
+
+p
+{	font-size: 20px;
+	color: #ECF0F1;
+}
+a
+{
+	color: #e6b800;	
+}
+
+.round img
+{			position: relative;
+			left : 700px;
+			display:block;
+            width: 100px;
+            height: 100px;
+            border-radius: 60%;
+            overflow: hidden;
+            padding:5px 4px;
+}
+
+input#first
+{
+	
+	background-image: url("user.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	
+	
+}
+
+input#last
+{
+	background-image: url("user.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+		
+}
+input#user
+{
+	
+	background-image: url("user.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	
+	
+}
+
+input#email
+{
+	background-image: url("email.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	
+}
+
+input#password, input#confirmpass
+{
+	background-image: url("lock.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	
+}
+input#DOB
+{
+	background-image: url("Calendar.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	
+}
+input#contact
+{
+	background-image: url("telephone.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+	
+}
+
+.menu
+{
+	overflow: hidden;
+  	background-color: #333;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+}
+
+.menu a
+{
+	float: right;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 10px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	font-family:"Times New Roman", Georgia, Serif;
+}
